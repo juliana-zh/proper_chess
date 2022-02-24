@@ -19,7 +19,7 @@
 }
 
 .page .logo {
-    background-color: $primaryBackgroundColor;
-    color: $secondarycolor;
+    background-color: $primaryColor;
+    color: $secondaryColor;
     @include wh(100px, 100px, $r: 50%);
 }

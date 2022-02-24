@@ -45,6 +45,112 @@
     }
   }
 
+  &__inv-to-club-arrow {
+    @include big-display {
+      width: 10px;
+      height: 13px;
+    }
+
+    @include desktop {
+      width: 10px;
+      height: 13px;
+    }
+
+    @include tablets {
+      width: 10px;
+      height: 13px;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &__invitations {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    @include big-display {
+      column-gap: 50px;
+    }
+
+    @include desktop {
+      column-gap: 50px;
+    }
+
+    @include tablets {
+      column-gap: 30px;
+    }
+
+    @include mobile {
+      column-gap: 0px;
+    }
+  }
+
+  &__inv-to-club-text {
+    color: $primaryTextColor;
+    @include regular-font;
+
+    @include big-display {
+      font-size: 15px;
+      line-height: 1.1;
+    }
+
+    @include desktop {
+      font-size: 15px;
+      line-height: 1.1;
+    }
+
+    @include tablets {
+      font-size: 13px;
+      line-height: 1.25;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &__inv-to-club {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  &__register-button {
+    @include reg-button;
+    @include regular-font(600);
+    color: $secondaryColor;
+
+    @include big-display {
+      width: 218px;
+      height: 48px;
+      font-size: 15px;
+      line-height: 1.2;
+    }
+
+    @include desktop {
+      width: 218px;
+      height: 48px;
+      font-size: 15px;
+      line-height: 1.2;
+    }
+
+    @include tablets {
+      width: 184px;
+      height: 44px;
+      font-size: 13px;
+      line-height: 1.38;
+    }
+
+    @include mobile {
+      width: 140px;
+      height: 30px;
+      font-size: 10px;
+      line-height: 1.8;
+    }
+  }
 
     // &__title {
     //     margin: 0;

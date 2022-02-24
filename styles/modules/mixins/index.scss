@@ -28,6 +28,18 @@
   }
 }
 
+@mixin regular-font ($weight: 400) {
+  font-family: $regularFont;
+  font-weight: $weight;
+  font-style: normal;
+}
+
+@mixin reg-button {
+  background: $tertiaryColor;
+  border-radius: 8px;
+  border: none;
+}
+
 %clearfix {
   &:after {
     content: "";
