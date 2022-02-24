@@ -1,0 +1,25 @@
+@use "sass:map";
+
+.page {
+    // background-color: red;
+    // color: $secondarycolor;
+    // @include desktop {
+    //     background-color: $pramaryColor;
+    //     color: $secondarycolor;
+    // }
+
+    // @include tablets {
+    //     background-color: $secondarycolor;
+    //     color: $pramaryColor;
+    // }
+    &__title {
+        font-size: 18px;
+        font-weight: map.get($font-weights, "bold");
+    }
+}
+
+.page .logo {
+    background-color: $primaryBackgroundColor;
+    color: $secondarycolor;
+    @include wh(100px, 100px, $r: 50%);
+}

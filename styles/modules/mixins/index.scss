@@ -1,0 +1,46 @@
+@mixin flex ($align: stretch, $justify:flex-start) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin big-display {
+  @media screen and (max-width: $big-display) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (max-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin tablets {
+  @media screen and (max-width: $tablets) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
+
+%clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+  @mixin wh ($w, $h:$w, $r:0) {
+    width: $w;
+    height: $h;
+
+    @if $r > 0 {
+      border-radius: $r;
+    }
+  }

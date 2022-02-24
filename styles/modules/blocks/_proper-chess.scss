@@ -1,0 +1,21 @@
+.proper-chess {
+  background-color: $primaryBackgroundColor;
+  min-height: 870px;
+
+  @include big-display {
+    min-height: 870px;
+  }
+
+  @include desktop {
+    min-height: 870px;
+  }
+
+  @include tablets {
+    min-height: 870px;
+  }
+
+  @include mobile {
+    min-height: 542px;
+  }
+}
+
