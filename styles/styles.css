@@ -147,7 +147,6 @@
   background: #009465;
   border-radius: 8px;
   border: none;
-  padding: 0;
   font-family: "NotoSans", Arial, sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -826,7 +825,6 @@
   background: #009465;
   border-radius: 8px;
   border: none;
-  padding: 0;
   font-family: "NotoSans", Arial, sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -881,4 +879,55 @@
     font-size: 12px;
     line-height: 1;
   }
+}
+
+.slider {
+  display: none;
+}
+@media screen and (max-width: 320px) {
+  .slider {
+    display: block;
+  }
+}
+.slider__picture {
+  margin: 0 20px 20px 20px;
+  width: 280px;
+  height: 280px;
+}
+.slider__person-name {
+  margin: 0 auto 5px auto;
+  font-family: "NotoSans", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #ffffff;
+  text-align: center;
+}
+.slider__person-profession {
+  margin: 0 auto 30px auto;
+  font-family: "NotoSans", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.3;
+  color: #ffffff;
+  text-align: center;
+}
+.slider__block-points {
+  margin: 0 auto 60px auto;
+  display: grid;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  grid-template-columns: repeat(3, -webkit-min-content);
+  grid-template-columns: repeat(3, min-content);
+  width: 44px;
+}
+.slider__point {
+  background-image: url(../../../images/empty_point.png);
+  width: 8px;
+  height: 8px;
+}
+.slider__point_status_active {
+  background-image: url(../../../images/active_point.png);
 }/*# sourceMappingURL=styles.css.map */
