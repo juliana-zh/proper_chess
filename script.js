@@ -3,6 +3,36 @@ const personName = document.querySelector('.slider__person-name');
 const personProfession = document.querySelector('.slider__person-profession');
 const pointsContainer = document.querySelectorAll('.slider__point');
 
+const regButtonHeader = document.querySelector('.header__register-button');
+const regButtonFooter = document.querySelector('.footer__register-button');
+const submitButton = document.querySelector('.form__register-button');
+const popupReg = document.querySelector('.popup');
+const formReg = document.querySelector('.form');
+
+function openPopup(popup) {
+  popup.classList.add('popup_status_active');
+}
+
+function closePopup(popup) {
+  popup.classList.remove('popup_status_active');
+}
+
+regButtonHeader.addEventListener('click', function (evt) {
+  openPopup(popupReg);
+});
+
+regButtonFooter.addEventListener('click', function (evt) {
+  openPopup(popupReg);
+});
+
+submitButton.addEventListener('click', function (evt) {
+  closePopup(popupReg);
+});
+
+formReg.addEventListener('submit', function (evt) {
+  evt.preventDefault();
+  closePopup(popupReg);
+});
 
 pointsContainer[0].addEventListener('click', function (evt) {
 
