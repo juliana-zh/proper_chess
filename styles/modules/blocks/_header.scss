@@ -122,20 +122,10 @@
     @include reg-button;
     @include regular-font(600);
     color: $secondaryColor;
-
-    @include big-display {
-      width: 218px;
-      height: 48px;
-      font-size: 15px;
-      line-height: 1.2;
-    }
-
-    @include desktop {
-      width: 218px;
-      height: 48px;
-      font-size: 15px;
-      line-height: 1.2;
-    }
+    width: 218px;
+    height: 48px;
+    font-size: 15px;
+    line-height: 1.2;
 
     @include tablets {
       width: 184px;
