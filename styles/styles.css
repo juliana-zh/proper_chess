@@ -303,7 +303,7 @@
     font-size: 40px;
     line-height: 0.9;
     width: 280px;
-    margin: 0 0 20px 0;
+    margin: 50px 0 20px 0;
   }
 }
 .proper-chess__desc {
@@ -387,7 +387,7 @@
 }
 .proper-chess__abstr-pic {
   grid-area: abstract;
-  background-image: url(../../../images/abstract_pic_main.svg);
+  background-image: url(../../../images/abstract_pic_main.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -413,6 +413,7 @@
     width: 120px;
     height: 60px;
     align-self: flex-start;
+    background-image: url(../../../images/small_abstr.png);
   }
 }
 
@@ -517,7 +518,7 @@
 }
 @media screen and (max-width: 768px) {
   .our-team__stuff {
-    margin: 0 auto 100px 50px;
+    margin: 0 auto 80px 50px;
     -moz-column-gap: 28px;
          column-gap: 28px;
   }
@@ -542,4 +543,114 @@
   font-family: "NotoSans", Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.our-team__want-to-team {
+  display: grid;
+  grid-template-areas: "abstr text";
+  margin: 0 160px 60px 0;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+@media screen and (max-width: 3840px) {
+  .our-team__want-to-team {
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 440px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .our-team__want-to-team {
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 440px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-team__want-to-team {
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 440px;
+    margin: 0 50px 50px 0;
+    -moz-column-gap: 60px;
+         column-gap: 60px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .our-team__want-to-team {
+    grid-template-areas: "text" "abstr";
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+  }
+}
+.our-team__our-team__text-wrapper {
+  grid-area: text;
+}
+.our-team__want-to-team-header {
+  font-family: "NotoSans", Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 70px;
+  line-height: 0.9;
+  color: #ffffff;
+  width: 520px;
+  margin: 111px 0 0 0;
+}
+@media screen and (max-width: 320px) {
+  .our-team__want-to-team-header {
+    font-size: 40px;
+    line-height: 0.9;
+    width: 280px;
+    margin: 0 20px 20px 20px;
+  }
+}
+.our-team__want-to-team-desc {
+  font-family: "NotoSans", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #ffffff;
+  width: 520px;
+  margin: 40px 0 0 0;
+}
+@media screen and (max-width: 320px) {
+  .our-team__want-to-team-desc {
+    font-size: 12px;
+    line-height: 1.3;
+    width: 280px;
+    margin: 0 20px 60px 20px;
+  }
+}
+.our-team__want-to-team-pic {
+  grid-area: abstr;
+  background-image: url(../../../images/abstract_green.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 3840px) {
+  .our-team__want-to-team-pic {
+    width: 660px;
+    height: 440px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .our-team__want-to-team-pic {
+    width: 100%;
+    align-self: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-team__want-to-team-pic {
+    width: 180px;
+    height: 360px;
+    background-position: right;
+    align-self: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .our-team__want-to-team-pic {
+    width: 280px;
+    height: 140px;
+    background-position: top;
+    margin: 0 20px 0 20px;
+    background-size: 420px;
+    background-position: top right;
+  }
 }/*# sourceMappingURL=styles.css.map */

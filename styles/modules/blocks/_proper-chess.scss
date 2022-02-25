@@ -89,7 +89,7 @@
       font-size: 40px;
       line-height: 0.9;
       width: 280px;
-      margin: 0 0 20px 0;
+      margin: 50px 0 20px 0;
     }
   }
 
@@ -174,7 +174,7 @@
 
   &__abstr-pic {
     grid-area: abstract;
-    background-image: url(../../../images/abstract_pic_main.svg);
+    background-image: url(../../../images/abstract_pic_main.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -196,6 +196,7 @@
       width: 120px;
       height: 60px;
       align-self: flex-start;
+      background-image: url(../../../images/small_abstr.png);
     }
   }
 }
