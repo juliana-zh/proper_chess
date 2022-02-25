@@ -17,7 +17,7 @@
     left: calc(50% - 255px);
   }
 
-  @include mobile {
+  @include big-mobile {
     top: calc(50% - 278px);
     left: calc(50% - 143px);
   }
@@ -28,7 +28,7 @@
     display: block;
     margin: 0 auto 50px auto;
 
-    @include mobile {
+    @include big-mobile {
       width: 26px;
       height: 36px;
       margin: 0 auto 40px auto;
@@ -43,7 +43,7 @@
     line-height: 0.9;
     margin: 0;
 
-    @include mobile {
+    @include big-mobile {
       font-size: 30px;
     }
   }
@@ -61,7 +61,7 @@
         margin: 78px auto 223px auto;
       }
 
-      @include mobile {
+      @include big-mobile {
         margin: 40px auto 133px auto;
       }
   }
@@ -79,7 +79,7 @@
     text-indent: 28px;
     border-radius: 8px;
 
-    @include mobile {
+    @include big-mobile {
       width: 280px;
       height: 42px;
       margin: 0 auto 10px auto;
@@ -121,7 +121,7 @@
       line-height: 1.38;
     }
 
-    @include mobile {
+    @include big-mobile {
       width: 140px;
       height: 30px;
       font-size: 10px;

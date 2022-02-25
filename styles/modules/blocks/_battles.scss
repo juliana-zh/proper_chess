@@ -13,7 +13,7 @@
     min-height: 1015px;
   }
 
-  @include mobile {
+  @include big-mobile {
     min-height: 652px;
   }
 
@@ -36,9 +36,16 @@
       padding: 50px 0 40px 50px;
     }
 
+    @include big-mobile {
+      font-size: 40px;
+      padding: 20px;
+      text-align: center;
+    }
+
     @include mobile {
       font-size: 40px;
       padding: 20px;
+      text-align: left;
     }
   }
 
@@ -64,10 +71,19 @@
       width: 500px;
     }
 
-    @include mobile {
+    @include big-mobile {
       font-size: 12px;
       padding: 0 20px 20px 20px;
       width: 280px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    @include mobile {
+      font-size: 12px;
+      padding: 0 20px 60px 20px;
+      width: 280px;
+      text-align: left;
     }
   }
 
@@ -85,7 +101,7 @@
       column-gap: 28px;
     }
 
-    @include mobile {
+    @include big-mobile {
       display: none;
     }
   }
@@ -100,6 +116,12 @@
 
     @include tablets {
       margin: 0 50px 0 0;
+    }
+
+    @include big-mobile {
+      margin: 0 20px 20px 20px;
+      column-gap: 0;
+      grid-template-columns: 1fr;
     }
 
     @include mobile {
@@ -118,7 +140,7 @@
       background-position: right;
     }
 
-    @include mobile {
+    @include big-mobile {
       display: none;
     }
   }
@@ -128,6 +150,13 @@
     width: 416px;
     height: 104px;
     align-self: center;
+
+    @include big-mobile {
+      width: 280px;
+      height: 70px;
+      background-size: contain;
+      margin: 0 auto;
+    }
 
     @include mobile {
       width: 280px;

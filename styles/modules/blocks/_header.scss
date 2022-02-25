@@ -18,7 +18,7 @@
     padding: 0px 50px;
   }
 
-  @include mobile {
+  @include big-mobile {
     min-height: 68px;
     padding: 0px 20px;
   }
@@ -39,7 +39,7 @@
       height: 54px;
     }
 
-    @include mobile {
+    @include big-mobile {
       width: 26px;
       height: 36px;
     }
@@ -61,7 +61,7 @@
       height: 13px;
     }
 
-    @include mobile {
+    @include big-mobile {
       display: none;
     }
   }
@@ -82,7 +82,7 @@
       column-gap: 30px;
     }
 
-    @include mobile {
+    @include big-mobile {
       column-gap: 0px;
     }
   }
@@ -106,7 +106,7 @@
       line-height: 1.25;
     }
 
-    @include mobile {
+    @include big-mobile {
       display: none;
     }
   }
@@ -116,6 +116,10 @@
     grid-template-columns: repeat(2, max-content);
     align-items: center;
     column-gap: 10px;
+
+    @include big-mobile {
+      display: none;
+    }
   }
 
   &__register-button {
@@ -136,7 +140,7 @@
       line-height: 1.38;
     }
 
-    @include mobile {
+    @include big-mobile {
       width: 140px;
       height: 30px;
       font-size: 10px;
@@ -147,17 +151,4 @@
       background-color: $darkButton;
     }
   }
-
-
-
-    // &__title {
-    //     margin: 0;
-    //     padding: 0;
-    //     list-style: none;
-    //     font-size: rem(24px);
-
-    //     &:hover {
-    //         color: antiquewhite;
-    //     }
-    // }
 }

@@ -23,7 +23,7 @@
     padding: 0px 50px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .header {
     min-height: 68px;
     padding: 0px 20px;
@@ -47,7 +47,7 @@
     height: 54px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .header__figure {
     width: 26px;
     height: 36px;
@@ -71,7 +71,7 @@
     height: 13px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .header__inv-to-club-arrow {
     display: none;
   }
@@ -100,7 +100,7 @@
          column-gap: 30px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .header__invitations {
     -moz-column-gap: 0px;
          column-gap: 0px;
@@ -130,7 +130,7 @@
     line-height: 1.25;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .header__inv-to-club-text {
     display: none;
   }
@@ -142,6 +142,11 @@
   align-items: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
+}
+@media screen and (max-width: 596px) {
+  .header__inv-to-club {
+    display: none;
+  }
 }
 .header__register-button {
   background: #009465;
@@ -166,7 +171,7 @@
     line-height: 1.38;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .header__register-button {
     width: 140px;
     height: 30px;
@@ -180,18 +185,6 @@
 
 .page {
   position: relative;
-}
-.page__title {
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.page .logo {
-  background-color: black;
-  color: #ffffff;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
 }
 
 .proper-chess {
@@ -211,6 +204,11 @@
 @media screen and (max-width: 768px) {
   .proper-chess {
     min-height: 870px;
+  }
+}
+@media screen and (max-width: 596px) {
+  .proper-chess {
+    min-height: 542px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -246,11 +244,11 @@
     height: 50px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .proper-chess__club {
     width: 63px;
     height: 40px;
-    margin: 0 0 50px 0;
+    margin: 25px 0 50px 0;
   }
 }
 .proper-chess__club-text {
@@ -277,7 +275,7 @@
     line-height: 0.9;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .proper-chess__club-text {
     font-size: 12px;
     line-height: 0.9;
@@ -294,12 +292,12 @@
   margin: 0 0 40px 0;
   width: 500px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .proper-chess__main-header-text {
     font-size: 40px;
     line-height: 0.9;
     width: 280px;
-    margin: 50px 0 20px 0;
+    margin: 11px 0 20px 0;
   }
 }
 .proper-chess__desc {
@@ -318,7 +316,7 @@
     margin: 0 0 212px 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .proper-chess__desc {
     font-size: 12px;
     line-height: 1.3;
@@ -357,13 +355,13 @@
     justify-content: space-between;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .proper-chess__wrapper {
     grid-template-areas: "club abstract" "main-header main-header" "description description" "chess chess";
     grid-template-rows: -webkit-min-content;
     grid-template-rows: min-content;
     grid-template-columns: 2fr;
-    margin: 34px 20px 20px 20px;
+    margin: 12px 20px 20px 20px;
   }
 }
 .proper-chess__table-pic {
@@ -375,7 +373,7 @@
   height: 104px;
   align-self: flex-end;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .proper-chess__table-pic {
     width: 280px;
     height: 70px;
@@ -404,7 +402,7 @@
     align-self: flex-end;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .proper-chess__abstr-pic {
     width: 120px;
     height: 60px;
@@ -431,7 +429,7 @@
     min-height: 1296px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .our-team {
     min-height: 986px;
   }
@@ -460,10 +458,17 @@
     padding: 50px 0 40px 50px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .our-team__header {
     font-size: 40px;
     padding: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .our-team__header {
+    font-size: 40px;
+    text-align: left;
   }
 }
 .our-team__desc {
@@ -473,7 +478,6 @@
   font-size: 20px;
   line-height: 1.3;
   color: #ffffff;
-  margin: 0;
 }
 @media screen and (max-width: 3840px) {
   .our-team__desc {
@@ -483,20 +487,28 @@
 }
 @media screen and (max-width: 1440px) {
   .our-team__desc {
-    padding: 0px 0 110px 160px;
+    padding: 0px 0 70px 160px;
     width: 500px;
   }
 }
 @media screen and (max-width: 768px) {
   .our-team__desc {
-    padding: 0px 0 140px 50px;
+    padding: 0px 0 100px 50px;
     width: 500px;
+  }
+}
+@media screen and (max-width: 596px) {
+  .our-team__desc {
+    font-size: 12px;
+    padding: 0 20px 20px 20px;
+    width: 280px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 320px) {
   .our-team__desc {
     font-size: 12px;
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 60px 20px;
     width: 280px;
   }
 }
@@ -519,7 +531,7 @@
          column-gap: 28px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .our-team__stuff {
     display: none;
   }
@@ -546,6 +558,7 @@
   margin: 0 160px 60px 0;
   -moz-column-gap: 100px;
        column-gap: 100px;
+  overflow: hidden;
 }
 @media screen and (max-width: 3840px) {
   .our-team__want-to-team {
@@ -568,9 +581,13 @@
          column-gap: 60px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .our-team__want-to-team {
     grid-template-areas: "text" "abstr";
+    -moz-column-gap: 0;
+         column-gap: 0;
+    grid-template-columns: 1fr;
+    margin: 0 0 50px 0;
     grid-template-rows: -webkit-min-content;
     grid-template-rows: min-content;
   }
@@ -588,7 +605,7 @@
   width: 520px;
   margin: 111px 0 0 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .our-team__want-to-team-header {
     font-size: 40px;
     line-height: 0.9;
@@ -606,7 +623,7 @@
   width: 520px;
   margin: 40px 0 0 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .our-team__want-to-team-desc {
     font-size: 12px;
     line-height: 1.3;
@@ -640,7 +657,7 @@
     align-self: center;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .our-team__want-to-team-pic {
     width: 280px;
     height: 140px;
@@ -669,7 +686,7 @@
     min-height: 1015px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .battles {
     min-height: 652px;
   }
@@ -698,10 +715,18 @@
     padding: 50px 0 40px 50px;
   }
 }
+@media screen and (max-width: 596px) {
+  .battles__header {
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 320px) {
   .battles__header {
     font-size: 40px;
     padding: 20px;
+    text-align: left;
   }
 }
 .battles__desc {
@@ -731,11 +756,21 @@
     width: 500px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .battles__desc {
     font-size: 12px;
     padding: 0 20px 20px 20px;
     width: 280px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .battles__desc {
+    font-size: 12px;
+    padding: 0 20px 60px 20px;
+    width: 280px;
+    text-align: left;
   }
 }
 .battles__items {
@@ -756,7 +791,7 @@
          column-gap: 28px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .battles__items {
     display: none;
   }
@@ -776,6 +811,14 @@
     margin: 0 50px 0 0;
   }
 }
+@media screen and (max-width: 596px) {
+  .battles__figures {
+    margin: 0 20px 20px 20px;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    grid-template-columns: 1fr;
+  }
+}
 @media screen and (max-width: 320px) {
   .battles__figures {
     margin: 0 20px 20px 20px;
@@ -793,7 +836,7 @@
     background-position: right;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .battles__circle {
     display: none;
   }
@@ -803,6 +846,14 @@
   width: 416px;
   height: 104px;
   align-self: center;
+}
+@media screen and (max-width: 596px) {
+  .battles__chess {
+    width: 280px;
+    height: 70px;
+    background-size: contain;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 320px) {
   .battles__chess {
@@ -897,15 +948,16 @@
 .slider {
   display: none;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .slider {
     display: block;
   }
 }
 .slider__picture {
-  margin: 0 20px 20px 20px;
+  margin: 0 auto 20px auto;
   width: 280px;
   height: 280px;
+  display: block;
 }
 .slider__person-name {
   margin: 0 auto 5px auto;
@@ -984,7 +1036,7 @@
     left: calc(50% - 255px);
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .form {
     top: calc(50% - 278px);
     left: calc(50% - 143px);
@@ -996,7 +1048,7 @@
   display: block;
   margin: 0 auto 50px auto;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .form__chess-figure {
     width: 26px;
     height: 36px;
@@ -1013,7 +1065,7 @@
   line-height: 0.9;
   margin: 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .form__header {
     font-size: 30px;
   }
@@ -1033,7 +1085,7 @@
     margin: 78px auto 223px auto;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .form__input-container {
     margin: 40px auto 133px auto;
   }
@@ -1053,7 +1105,7 @@
   text-indent: 28px;
   border-radius: 8px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .form__item {
     width: 280px;
     height: 42px;
@@ -1107,7 +1159,7 @@
     line-height: 1.38;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 596px) {
   .form__register-button {
     width: 140px;
     height: 30px;

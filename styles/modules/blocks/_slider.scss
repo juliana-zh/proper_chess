@@ -1,14 +1,15 @@
 .slider {
   display: none;
 
-  @include mobile {
+  @include big-mobile {
     display: block;
   }
 
   &__picture {
-    margin: 0 20px 20px 20px;
+    margin: 0 auto 20px auto;
     width: 280px;
     height: 280px;
+    display: block;
   }
 
   &__person-name {
