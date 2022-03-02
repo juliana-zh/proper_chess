@@ -366,7 +366,7 @@
 }
 .proper-chess__table-pic {
   grid-area: chess;
-  background-image: url(../../../images/table.png);
+  background-image: url(../images/table.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 416px;
