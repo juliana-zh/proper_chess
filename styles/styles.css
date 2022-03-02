@@ -85,25 +85,25 @@
 @media screen and (max-width: 3840px) {
   .header__invitations {
     -moz-column-gap: 50px;
-         column-gap: 50px;
+    column-gap: 50px;
   }
 }
 @media screen and (max-width: 1440px) {
   .header__invitations {
     -moz-column-gap: 50px;
-         column-gap: 50px;
+    column-gap: 50px;
   }
 }
 @media screen and (max-width: 768px) {
   .header__invitations {
     -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
 }
 @media screen and (max-width: 596px) {
   .header__invitations {
     -moz-column-gap: 0px;
-         column-gap: 0px;
+    column-gap: 0px;
   }
 }
 .header__inv-to-club-text {
@@ -141,7 +141,7 @@
   grid-template-columns: repeat(2, max-content);
   align-items: center;
   -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 @media screen and (max-width: 596px) {
   .header__inv-to-club {
@@ -407,7 +407,7 @@
     width: 120px;
     height: 60px;
     align-self: flex-start;
-    background-image: url(../../../images/small_abstr.png);
+    background-image: url(../images/small_abstr.png);
   }
 }
 
@@ -517,7 +517,7 @@
   grid-template-columns: repeat(3, -webkit-min-content);
   grid-template-columns: repeat(3, min-content);
   -moz-column-gap: 80px;
-       column-gap: 80px;
+  column-gap: 80px;
   list-style-type: none;
   margin: 0 auto 140px 160px;
   padding: 0;
@@ -528,7 +528,7 @@
   .our-team__stuff {
     margin: 0 auto 80px 50px;
     -moz-column-gap: 28px;
-         column-gap: 28px;
+    column-gap: 28px;
   }
 }
 @media screen and (max-width: 596px) {
@@ -557,7 +557,7 @@
   grid-template-areas: "abstr text";
   margin: 0 160px 60px 0;
   -moz-column-gap: 100px;
-       column-gap: 100px;
+  column-gap: 100px;
   overflow: hidden;
 }
 @media screen and (max-width: 3840px) {
@@ -578,14 +578,14 @@
     grid-template-rows: 440px;
     margin: 0 50px 50px 0;
     -moz-column-gap: 60px;
-         column-gap: 60px;
+    column-gap: 60px;
   }
 }
 @media screen and (max-width: 596px) {
   .our-team__want-to-team {
     grid-template-areas: "text" "abstr";
     -moz-column-gap: 0;
-         column-gap: 0;
+    column-gap: 0;
     grid-template-columns: 1fr;
     margin: 0 0 50px 0;
     grid-template-rows: -webkit-min-content;
@@ -633,7 +633,7 @@
 }
 .our-team__want-to-team-pic {
   grid-area: abstr;
-  background-image: url(../../../images/abstract_green.png);
+  background-image: url(../images/abstract_green.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -646,7 +646,6 @@
 @media screen and (max-width: 1440px) {
   .our-team__want-to-team-pic {
     width: 100%;
-    align-self: left;
   }
 }
 @media screen and (max-width: 768px) {
@@ -778,7 +777,7 @@
   grid-template-columns: repeat(3, -webkit-min-content);
   grid-template-columns: repeat(3, min-content);
   -moz-column-gap: 80px;
-       column-gap: 80px;
+  column-gap: 80px;
   list-style-type: none;
   margin: 0 auto 74px 160px;
   padding: 0;
@@ -788,7 +787,7 @@
   .battles__items {
     margin: 0 auto 104px 50px;
     -moz-column-gap: 28px;
-         column-gap: 28px;
+    column-gap: 28px;
   }
 }
 @media screen and (max-width: 596px) {
@@ -803,7 +802,7 @@
   justify-content: space-between;
   margin: 74px 160px 0 100px;
   -moz-column-gap: 50px;
-       column-gap: 50px;
+  column-gap: 50px;
   overflow: hidden;
 }
 @media screen and (max-width: 768px) {
@@ -815,7 +814,7 @@
   .battles__figures {
     margin: 0 20px 20px 20px;
     -moz-column-gap: 0;
-         column-gap: 0;
+    column-gap: 0;
     grid-template-columns: 1fr;
   }
 }
@@ -825,7 +824,7 @@
   }
 }
 .battles__circle {
-  background-image: url(../../../images/half-circle.png);
+  background-image: url(../images/half-circle.png);
   width: 440px;
   height: 220px;
 }
@@ -842,7 +841,7 @@
   }
 }
 .battles__chess {
-  background-image: url(../../../images/table_green.png);
+  background-image: url(../images/table_green.png);
   width: 416px;
   height: 104px;
   align-self: center;
@@ -983,18 +982,18 @@
   margin: 0 auto 60px auto;
   display: grid;
   -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
   grid-template-columns: repeat(3, -webkit-min-content);
   grid-template-columns: repeat(3, min-content);
   width: 44px;
 }
 .slider__point {
-  background-image: url(../../../images/empty_point.png);
+  background-image: url(../images/empty_point.png);
   width: 8px;
   height: 8px;
 }
 .slider__point_status_active {
-  background-image: url(../../../images/active_point.png);
+  background-image: url(../images/active_point.png);
 }
 
 .popup {
@@ -1169,4 +1168,4 @@
 }
 .form__register-button:hover {
   background-color: #066C4C;
-}/*# sourceMappingURL=styles.css.map */
+}

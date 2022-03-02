@@ -192,7 +192,7 @@
 
   &__want-to-team-pic {
     grid-area: abstr;
-    background-image: url(../../../images/abstract_green.png);
+    background-image: url(../images/abstract_green.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -203,7 +203,7 @@
 
     @include desktop {
       width: 100%;
-      align-self: left;
+      // align-self: left;
     }
 
     @include tablets {
