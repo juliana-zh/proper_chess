@@ -2,16 +2,12 @@
   background-color: $primaryColor;
   min-height: 730px;
 
-  @include tablets {
-    min-height: 870px;
-  }
-
   @include big-mobile {
     min-height: 542px;
   }
 
   @include mobile {
-    min-height: 542px;
+    min-height: 465px;
   }
 
   &__club {

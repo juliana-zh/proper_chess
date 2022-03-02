@@ -147,11 +147,6 @@
   background-color: black;
   min-height: 730px;
 }
-@media screen and (max-width: 768px) {
-  .proper-chess {
-    min-height: 870px;
-  }
-}
 @media screen and (max-width: 596px) {
   .proper-chess {
     min-height: 542px;
@@ -159,7 +154,7 @@
 }
 @media screen and (max-width: 320px) {
   .proper-chess {
-    min-height: 542px;
+    min-height: 465px;
   }
 }
 .proper-chess__club {
